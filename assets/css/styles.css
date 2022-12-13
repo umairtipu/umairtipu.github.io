@@ -447,12 +447,13 @@ span.umair {
 }
 
 .section-3 {
-    background-color: #e7c040;
+    background-color: #f4ff4a;
+    color: #645a4f;
 }
 
 .section-4 {
     z-index: 2;
-    background-color: #60391d;
+    background-color: #681666;
 }
 
 .tps-wrapper {
@@ -558,7 +559,7 @@ span.umair {
     text-align: center;
     -webkit-transform: translateZ(30px);
     transform: translateZ(30px);
-    border: 0 solid hsl(109, 84%, 70%);
+    border: 0 solid rgb(214, 247, 0);
     transition: border .4s ease;
 }
 
