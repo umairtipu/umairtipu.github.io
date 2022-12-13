@@ -320,12 +320,12 @@ body {
     position: absolute;
     left: 50%;
     bottom: 0px;
-    -webkit-animation: arrow 0.5s 1s infinite ease-out alternate;
+    animation: arrow 0.5s 1s infinite ease-out alternate;
 
 }
 
 .arrow-down:hover {
-    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
 }
 
 .left {
@@ -333,12 +333,12 @@ body {
     height: 10px;
     width: 40px;
     background: rgb(152, 235, 57);
-    -webkit-transform: rotate(240deg);
+    transform: rotate(240deg);
     top: 10px;
     left: 10px;
-    -webkit-border-radius: 4px;
-    -webkit-transform-origin: 5px 50%;
-    -webkit-animation: leftArrow 0.5s 1s infinite ease-out alternate;
+    border-radius: 4px;
+    transform-origin: 5px 50%;
+    animation: leftArrow 0.5s 1s infinite ease-out alternate;
 }
 
 .right {
@@ -346,18 +346,18 @@ body {
     height: 10px;
     width: 40px;
     background: rgb(152, 235, 57);
-    -webkit-transform: rotate(-60deg);
+    transform: rotate(-60deg);
     top: 10px;
     left: 10px;
-    -webkit-border-radius: 4px;
-    -webkit-transform-origin: 5px 50%;
-    -webkit-animation: rightArrow 0.5s 1s infinite ease-out alternate;
+    border-radius: 4px;
+    transform-origin: 5px 50%;
+    animation: rightArrow 0.5s 1s infinite ease-out alternate;
 }
 
 
 
 
-@-webkit-keyframes arrow {
+@keyframes arrow {
     0% {
         bottom: 0px;
     }
@@ -368,7 +368,7 @@ body {
 }
 
 
-@-webkit-keyframes leftArrow {
+@keyframes leftArrow {
     0% {}
 
     100% {
@@ -376,7 +376,7 @@ body {
     }
 }
 
-@-webkit-keyframes rightArrow {
+@keyframes rightArrow {
     0% {}
 
     100% {
