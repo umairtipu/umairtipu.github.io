@@ -1,0 +1,5 @@
+@media screen and (max-width: 767px) {
+    .intro-heading {
+        font-size: 10vh !important;
+    }
+}
