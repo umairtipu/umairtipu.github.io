@@ -452,8 +452,11 @@ span.umair {
 }
 
 .section-4 {
-    z-index: 2;
-    background-color: #681666;
+    background-color: #391639;
+}
+
+.section-5 {
+    background-color: hsl(300deg 21% 14%);
 }
 
 .tps-wrapper {
@@ -491,7 +494,7 @@ span.umair {
     position: absolute;
     left: 0;
     top: 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4));
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
     transition: opacity .3s ease;
     opacity: 0;
 }
@@ -592,4 +595,19 @@ span.umair {
 .project__category a {
     color: rgba(255, 255, 255, 0.8);
     font-size: 1.5em;
+}
+
+.slide__price {
+    color: hsl(49, 75%, 49%);
+}
+
+.testimonial-title {
+    color: #FBD82E;
+}
+
+.slide__inner p {
+    font-size: 17px;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
 }

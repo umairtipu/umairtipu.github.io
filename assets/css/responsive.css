@@ -2,4 +2,16 @@
     .intro-heading {
         font-size: 10vh !important;
     }
+    .services img {
+        width: 150px;
+    }
+    .project__detail {
+        left: 10px;
+        right: 10px;
+        top: 10px;
+        bottom: 10px;
+    }
+    .project__title {
+        font-size: 20px;
+    }
 }
