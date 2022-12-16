@@ -33,13 +33,13 @@ body {
 
 a {
 	text-decoration: none;
-	color: #000;
+	color: #fff;
 	outline: none;
 }
 
 a:hover,
 a:focus {
-	color: #414146;
+	color: #6666e7;
 }
 
 .container {

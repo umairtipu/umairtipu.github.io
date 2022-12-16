@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+	$("#year").html(new Date().getFullYear());
+
 	$(".project").hover3d({
 		selector: ".project__card",
 		// shine: true,

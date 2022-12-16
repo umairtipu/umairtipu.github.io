@@ -14,4 +14,13 @@
     .project__title {
         font-size: 20px;
     }
+    .slide__inner {
+        background-position: 30px;
+    }
+    .copywrite-text {
+        font-size: 15px;
+    }
+    h5.testimonial-title {
+        font-size: 15px;
+    }
 }

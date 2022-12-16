@@ -611,3 +611,35 @@ span.umair {
     font-style: italic;
     font-weight: bold;
 }
+
+.riviews-stars  {
+    color: #DBB81F;
+    font-size: 18px;
+}
+
+.social-icons a {
+    font-size: 25px;
+    margin: 0 5px;
+    padding: 3px 5px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.social-icons a:hover,
+.social-icons a:focus {
+    background-color: #b0a9c0;
+    color: #2B1C2B;
+    transition: 1s;
+}
+
+.copywrite-text {
+  text-transform: uppercase;
+  color: #DBB81F;
+  font-size: 20px;
+  font-family: AlegreyaSans-MediumRegular;
+  text-align: end;
+}
+
+/* .dev {
+  font-family: AlegreyaSans-MediumRegular;
+} */
