@@ -11,21 +11,13 @@ $(document).ready(function() {
 	setInterval(() => {
 		$(".navbutton--next").click()
 	}, 4000);
-
-	setTimeout(() => {
-		$(".loader-container").remove();
-    	$("body").css("background-color", "#fff");
-	}, 5000);
 	
 });
 
 window.onload = function () {
-	console.log('kkkkk');
+	$(".loader-container").remove();
+    $("body").css("background-color", "#fff");
 }
-
-// $(window).load(function() {
-// 	console.log('kkkkk');
-// });
 
 $(window).on('resize scroll', function() {
 	$('.heading').each((el, index) => {
