@@ -78,21 +78,6 @@ div.header {
     z-index: 5;
 }
 
-/* width */
-body::-webkit-scrollbar {
-    width: 5px;
-}
-
-/* Track */
-body::-webkit-scrollbar-track {
-    background: transparent;
-}
-
-/* Handle */
-body::-webkit-scrollbar-thumb {
-    background: #888;
-}
-
 .loader-container {
     width: 100%;
     height: 100%;
