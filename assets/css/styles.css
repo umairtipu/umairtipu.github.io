@@ -78,6 +78,21 @@ div.header {
     z-index: 5;
 }
 
+/* width */
+body::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+body::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
 .loader-container {
     width: 100%;
     height: 100%;
@@ -628,7 +643,7 @@ span.umair {
     padding: 0px 15px;
 }
 
-.riviews-stars  {
+.riviews-stars {
     color: #108A00;
     font-size: 18px;
 }
@@ -650,9 +665,9 @@ span.umair {
 }
 
 .copywrite-text {
-  text-transform: uppercase;
-  color: #DBB81F;
-  font-size: 20px;
-  font-family: AlegreyaSans-MediumRegular;
-  text-align: end;
+    text-transform: uppercase;
+    color: #DBB81F;
+    font-size: 20px;
+    font-family: AlegreyaSans-MediumRegular;
+    text-align: end;
 }
