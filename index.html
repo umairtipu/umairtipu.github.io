@@ -26,7 +26,7 @@
 </head>
 <body>
   <!-- Page loader start -->
-    <div class="loader-container">
+    <div class="loader-container" style="z-index: 10;">
       <div class="loader"> <span class="l-1"></span> <span class="l-2"></span> <span class="l-3"></span> <span class="l-4"></span> <span class="l-5"></span> <span class="l-6"></span> </div>
     </div>
   <!-- Page loader end -->
@@ -295,12 +295,6 @@
       document.documentElement.className = 'js';
       var slideshow = new CircleSlideshow(document.getElementById('slideshow'));
     })();
-  </script>
-  <script>
-    $(document).ready(function() {
-      $(".loader-container").remove();
-      $("body").css("background-color", "#fff");
-    });
   </script>
 </body>
 </html>

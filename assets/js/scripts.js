@@ -11,6 +11,9 @@ $(document).ready(function() {
 	setInterval(() => {
 		$(".navbutton--next").click()
 	}, 4000);
+
+	$(".loader-container").remove();
+    $("body").css("background-color", "#fff");
 	
 });
 
