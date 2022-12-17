@@ -107,10 +107,10 @@
 
 		// opening items
 		this.items.forEach(function(item) {
-			item.querySelector('.action--open').addEventListener('click', function(ev) {
-				self._openContent(item);
-				ev.target.blur();
-			});
+			// item.querySelector('.action--open').addEventListener('click', function(ev) {
+			// 	self._openContent(item);
+			// 	ev.target.blur();
+			// });
 		});
 
 		// closing items

@@ -19,9 +19,13 @@ $(document).ready(function() {
 	
 });
 
-$(window).load(function() {
+window.onload = function () {
 	console.log('kkkkk');
-});
+}
+
+// $(window).load(function() {
+// 	console.log('kkkkk');
+// });
 
 $(window).on('resize scroll', function() {
 	$('.heading').each((el, index) => {
