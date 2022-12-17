@@ -610,10 +610,11 @@ span.umair {
     margin: 0;
     font-style: italic;
     font-weight: bold;
+    padding: 0px 15px;
 }
 
 .riviews-stars  {
-    color: #DBB81F;
+    color: #108A00;
     font-size: 18px;
 }
 
@@ -623,11 +624,12 @@ span.umair {
     padding: 3px 5px;
     display: inline-block;
     border-radius: 50%;
+    color: #fff;
 }
 
 .social-icons a:hover,
 .social-icons a:focus {
-    background-color: #b0a9c0;
+    background-color: hwb(0 100% 0%);
     color: #2B1C2B;
     transition: 1s;
 }

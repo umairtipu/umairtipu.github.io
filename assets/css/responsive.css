@@ -15,12 +15,21 @@
         font-size: 20px;
     }
     .slide__inner {
-        background-position: 30px;
+        background-position: 55px;
+        background-size: 150px 150px;
     }
     .copywrite-text {
         font-size: 15px;
     }
     h5.testimonial-title {
         font-size: 15px;
+    }
+    .slide__inner::after {
+        width: 250px;
+        height: 250px;
+    }
+    .slide__inner p {
+        font-size: 13px;
+        padding: 0px 20px;
     }
 }
