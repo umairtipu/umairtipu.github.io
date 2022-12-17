@@ -17,6 +17,7 @@ $(document).ready(function() {
 window.onload = function () {
 	$(".loader-container").remove();
     $("body").css("background-color", "#fff");
+    $("body").css("overflow-y", "auto");
 }
 
 $(window).on('resize scroll', function() {

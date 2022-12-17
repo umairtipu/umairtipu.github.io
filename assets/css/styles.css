@@ -81,6 +81,7 @@ div.header {
 body {
     overflow-x: hidden;
     background-color: #fff;
+    overflow-y: hidden;
 }
 
 .page1 {
@@ -641,7 +642,3 @@ span.umair {
   font-family: AlegreyaSans-MediumRegular;
   text-align: end;
 }
-
-/* .dev {
-  font-family: AlegreyaSans-MediumRegular;
-} */
