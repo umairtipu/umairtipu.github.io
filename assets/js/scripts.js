@@ -19,6 +19,10 @@ $(document).ready(function() {
 	
 });
 
+$(window).load(function() {
+	console.log('kkkkk');
+});
+
 $(window).on('resize scroll', function() {
 	$('.heading').each((el, index) => {
 		if ($(index).css("opacity") !== '0') {
