@@ -4,8 +4,7 @@ $(document).ready(function() {
 
 	$(".project").hover3d({
 		selector: ".project__card",
-		// shine: true,
-		sensitivity: 4,
+		sensitivity: 5,
 	});
 
 	setInterval(() => {

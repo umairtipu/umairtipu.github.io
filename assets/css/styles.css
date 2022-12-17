@@ -78,6 +78,20 @@ div.header {
     z-index: 5;
 }
 
+.loader-container {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.loader-container img {
+    width: 100%;
+}
+
 body {
     overflow-x: hidden;
     background-color: #fff;
