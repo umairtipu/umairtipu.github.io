@@ -12,8 +12,10 @@ $(document).ready(function() {
 		$(".navbutton--next").click()
 	}, 4000);
 
-	$(".loader-container").remove();
-    $("body").css("background-color", "#fff");
+	setTimeout(() => {
+		$(".loader-container").remove();
+    	$("body").css("background-color", "#fff");
+	}, 5000);
 	
 });
 
