@@ -86,10 +86,11 @@ div.header {
     text-align: center;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .loader-container img {
-    width: 100%;
+    /* width: 100%; */
 }
 
 body {
