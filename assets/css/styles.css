@@ -455,7 +455,7 @@ span.umair {
 }
 
 .section-2 {
-    background-color: #1f0d4a;
+    background-color: #cb2b2b;
 }
 
 .section-3 {
@@ -464,11 +464,12 @@ span.umair {
 }
 
 .section-4 {
-    background-color: #391639;
+    /* background: linear-gradient(180deg, rgba(15,3,79,1) 20%, rgba(27,166,223,1) 100%); */
+    background: linear-gradient(140deg, rgba(15,3,79,1) 10%, rgb(225 70 70) 100%);
 }
 
 .section-5 {
-    background-color: hsl(300deg 21% 14%);
+    background: linear-gradient(180deg, rgb(181 28 28) -10%, rgb(32 34 104) 100%);
 }
 
 .tps-wrapper {
