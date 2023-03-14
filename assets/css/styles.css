@@ -724,3 +724,12 @@ html, body {
 }
 
 /* Loader Css end */
+
+/* Charts styles */
+#chart {
+    padding: 10px;
+    background: white;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+}
+/* Charts styles end */

@@ -20,6 +20,7 @@
     <script src="./assets/js/jquery.mousewheel.min.js"></script>
     <script src="./assets/js/jquery.hover3d.js"></script>
     <script src="./assets/js/scripts.js"></script>
+    <script src="./assets/js/apexcharts.js"></script>
 </head>
 <body>
   <!-- Page loader start -->
@@ -81,25 +82,13 @@
         <div class="container services">
           <h1 class="text-center mb-2 mb-md-5">What can I do for you</h1>
           <div class="row align-items-center">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-4">
               <img class="img-thumbnail" src="./assets/img/1616938554393.jpeg" alt="Umair Arshad">
               <h3 class="my-2 my-md-3">Who's this guy?</h3>
               <p>I'm a Full-Stack Developer working as freelance developer on Upwork. I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences. I can develop APIs and applications doing quality code for best user experiences.</p>
             </div>
-            <div class="col-12 col-md-6">
-              <div class="mb-1 progress" style="height: 25px;"><div class="progress-bar bg-success" role="progressbar" aria-label="Success example" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">HTML / CSS 100%</div></div>
-              <div class="mb-1 progress" style="height: 25px;"><div class="progress-bar bg-success" role="progressbar" aria-label="Success example" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Bootstrap 100%</div></div>
-              <div class="mb-1 progress" style="height: 25px;"><div class="progress-bar bg-success" role="progressbar" aria-label="Success example" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">TailwindCss 100%</div></div>
-              <div class="mb-1 progress" style="height: 25px;"><div class="progress-bar bg-success" role="progressbar" aria-label="Success example" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="95">Javascript / jQuery 95%</div></div>
-              <div class="mb-1 progress" style="height: 25px;"><div class="progress-bar bg-success" role="progressbar" aria-label="Success example" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="95">WordPress development 95%</div></div>
-              <div class="mb-1 progress" style="height: 25px;"><div class="progress-bar bg-success" role="progressbar" aria-label="Success example" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="95">Vue.js 95%</div></div>
-              <div class="mb-1 progress" style="height: 25px;"><div class="progress-bar bg-success" role="progressbar" aria-label="Success example" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="95">Nuxt.js 95%</div></div>
-              <div class="mb-1 progress" style="height: 25px;"><div class="progress-bar bg-success" role="progressbar" aria-label="Success example" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="95">Quasar Framework 95%</div></div>
-              <div class="mb-1 progress" style="height: 25px;"><div class="progress-bar bg-success" role="progressbar" aria-label="Success example" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="90">PHP 90%</div></div>
-              <div class="mb-1 progress" style="height: 25px;"><div class="progress-bar bg-success" role="progressbar" aria-label="Success example" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="90">Laravel 90%</div></div>
-              <div class="mb-1 progress" style="height: 25px;"><div class="progress-bar bg-success" role="progressbar" aria-label="Success example" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="90">Yii2 90%</div></div>
-              <div class="mb-1 progress" style="height: 25px;"><div class="progress-bar bg-success" role="progressbar" aria-label="Success example" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="90">Codeigniter 90%</div></div>
-              <div class="mb-1 progress" style="height: 25px;"><div class="progress-bar bg-success" role="progressbar" aria-label="Success example" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="90">MySql 90%</div></div>
+            <div class="col-12 col-md-8">
+              <div id="chart"></div>
             </div>
           </div>
         </div>

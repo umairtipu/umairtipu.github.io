@@ -320,7 +320,7 @@
 }
 
 .navbutton:hover .navbutton__line {
-	stroke: #464653;
+	stroke: #ccc;
 }
 
 .navbutton--next {
